@@ -1,0 +1,399 @@
+{
+    "retdec_instructions": [
+        {
+            "source_line": 8,
+            "bbId": 0,
+            "instruction": "  %12 = load i64, i64* @global_var_100000f90, align 8, !insn.addr !11",
+            "fileName": "/Users/andreibadoi/Master_Thesis/material/scripts/pattern_matching/data/1/main.c",
+            "function": "agent",
+            "function_args": [
+                "x",
+                "var"
+            ],
+            "opcode_name": "load",
+            "features": {
+                "operands": 1,
+                "opcode": 32,
+                "is_branch": false,
+                "is_function_call": false,
+                "is_return": false,
+                "is_int_cmp": false,
+                "is_float_cmp": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_conv": false,
+                "is_int_to_pointer": false,
+                "is_pointer_to_int": false,
+                "is_add": false,
+                "is_mul": false,
+                "is_div": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_binary": false,
+                "is_unary": false,
+                "is_associative": false,
+                "is_commutative": false,
+                "is_idempotent": false,
+                "is_nilpotent": false,
+                "mayWriteToMemory": false,
+                "mayReadOrWriteMemory": true,
+                "is_atomic": false,
+                "hasAtomicLoad": true,
+                "hasAtomicStore": false,
+                "mayThrow": false,
+                "is_fenceLike": false,
+                "mayHaveSideEffects": false,
+                "is_safeToRemove": true,
+                "is_EHPad": false
+            },
+            "faults": [
+                {
+                    "fault": {
+                        "name": "CWE-664",
+                        "severity": 5
+                    },
+                    "analyzers": [
+                        "Cppcheck",
+                        "Infer",
+                        "CodeQL"
+                    ],
+                    "found_by": [
+                        "Cppcheck",
+                        "Infer"
+                    ]
+                }
+            ]
+        },
+        {
+            "source_line": 8,
+            "bbId": 0,
+            "instruction": "  %16 = load i64, i64* @global_var_100000f98, align 8, !insn.addr !14",
+            "fileName": "/Users/andreibadoi/Master_Thesis/material/scripts/pattern_matching/data/1/main.c",
+            "function": "agent",
+            "function_args": [
+                "x",
+                "var"
+            ],
+            "opcode_name": "load",
+            "features": {
+                "operands": 1,
+                "opcode": 32,
+                "is_branch": false,
+                "is_function_call": false,
+                "is_return": false,
+                "is_int_cmp": false,
+                "is_float_cmp": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_conv": false,
+                "is_int_to_pointer": false,
+                "is_pointer_to_int": false,
+                "is_add": false,
+                "is_mul": false,
+                "is_div": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_binary": false,
+                "is_unary": false,
+                "is_associative": false,
+                "is_commutative": false,
+                "is_idempotent": false,
+                "is_nilpotent": false,
+                "mayWriteToMemory": false,
+                "mayReadOrWriteMemory": true,
+                "is_atomic": false,
+                "hasAtomicLoad": true,
+                "hasAtomicStore": false,
+                "mayThrow": false,
+                "is_fenceLike": false,
+                "mayHaveSideEffects": false,
+                "is_safeToRemove": true,
+                "is_EHPad": false
+            },
+            "faults": [
+                {
+                    "fault": {
+                        "name": "CWE-664",
+                        "severity": 5
+                    },
+                    "analyzers": [
+                        "Cppcheck",
+                        "Infer",
+                        "CodeQL"
+                    ],
+                    "found_by": [
+                        "Cppcheck",
+                        "Infer"
+                    ]
+                }
+            ]
+        },
+        {
+            "source_line": 8,
+            "bbId": 0,
+            "instruction": "  br i1 %8, label %dec_label_pc_100000f06, label %dec_label_pc_100000ef2, !insn.addr !6",
+            "fileName": "/Users/andreibadoi/Master_Thesis/material/scripts/pattern_matching/data/1/main.c",
+            "function": "agent",
+            "function_args": [
+                "x",
+                "var"
+            ],
+            "opcode_name": "br",
+            "features": {
+                "operands": 3,
+                "opcode": 2,
+                "is_branch": true,
+                "is_function_call": false,
+                "is_return": false,
+                "is_int_cmp": false,
+                "is_float_cmp": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_conv": false,
+                "is_int_to_pointer": false,
+                "is_pointer_to_int": false,
+                "is_add": false,
+                "is_mul": false,
+                "is_div": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_binary": false,
+                "is_unary": false,
+                "is_associative": false,
+                "is_commutative": false,
+                "is_idempotent": false,
+                "is_nilpotent": false,
+                "mayWriteToMemory": false,
+                "mayReadOrWriteMemory": false,
+                "is_atomic": false,
+                "hasAtomicLoad": false,
+                "hasAtomicStore": false,
+                "mayThrow": false,
+                "is_fenceLike": false,
+                "mayHaveSideEffects": false,
+                "is_safeToRemove": false,
+                "is_EHPad": false
+            },
+            "faults": [
+                {
+                    "fault": {
+                        "name": "CWE-664",
+                        "severity": 5
+                    },
+                    "analyzers": [
+                        "Cppcheck",
+                        "Infer",
+                        "CodeQL"
+                    ],
+                    "found_by": [
+                        "Cppcheck",
+                        "Infer"
+                    ]
+                }
+            ]
+        },
+        {
+            "source_line": 9,
+            "bbId": 0,
+            "instruction": "  store i64 %11, i64* %storemerge.reg2mem, !insn.addr !10",
+            "fileName": "/Users/andreibadoi/Master_Thesis/material/scripts/pattern_matching/data/1/main.c",
+            "function": "agent",
+            "function_args": [
+                "x",
+                "var"
+            ],
+            "opcode_name": "store",
+            "features": {
+                "operands": 2,
+                "opcode": 33,
+                "is_branch": false,
+                "is_function_call": false,
+                "is_return": false,
+                "is_int_cmp": false,
+                "is_float_cmp": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_conv": false,
+                "is_int_to_pointer": false,
+                "is_pointer_to_int": false,
+                "is_add": false,
+                "is_mul": false,
+                "is_div": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_binary": false,
+                "is_unary": false,
+                "is_associative": false,
+                "is_commutative": false,
+                "is_idempotent": false,
+                "is_nilpotent": false,
+                "mayWriteToMemory": true,
+                "mayReadOrWriteMemory": true,
+                "is_atomic": false,
+                "hasAtomicLoad": false,
+                "hasAtomicStore": true,
+                "mayThrow": false,
+                "is_fenceLike": false,
+                "mayHaveSideEffects": true,
+                "is_safeToRemove": true,
+                "is_EHPad": false
+            },
+            "faults": [
+                {
+                    "fault": {
+                        "name": "CWE-664",
+                        "severity": 7
+                    },
+                    "analyzers": [
+                        "Cppcheck",
+                        "Infer",
+                        "CodeQL"
+                    ],
+                    "found_by": [
+                        "Cppcheck",
+                        "Infer",
+                        "CodeQL"
+                    ]
+                }
+            ]
+        },
+        {
+            "source_line": 23,
+            "bbId": 0,
+            "instruction": "  %0 = load i64, i64* @global_var_100000fa0, align 8, !insn.addr !0",
+            "fileName": "/Users/andreibadoi/Master_Thesis/material/scripts/pattern_matching/data/1/main.c",
+            "function": "main",
+            "function_args": [
+                "argc",
+                "argv"
+            ],
+            "opcode_name": "load",
+            "features": {
+                "operands": 1,
+                "opcode": 32,
+                "is_branch": false,
+                "is_function_call": false,
+                "is_return": false,
+                "is_int_cmp": false,
+                "is_float_cmp": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_conv": false,
+                "is_int_to_pointer": false,
+                "is_pointer_to_int": false,
+                "is_add": false,
+                "is_mul": false,
+                "is_div": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_binary": false,
+                "is_unary": false,
+                "is_associative": false,
+                "is_commutative": false,
+                "is_idempotent": false,
+                "is_nilpotent": false,
+                "mayWriteToMemory": false,
+                "mayReadOrWriteMemory": true,
+                "is_atomic": false,
+                "hasAtomicLoad": true,
+                "hasAtomicStore": false,
+                "mayThrow": false,
+                "is_fenceLike": false,
+                "mayHaveSideEffects": false,
+                "is_safeToRemove": true,
+                "is_EHPad": false
+            },
+            "faults": [
+                {
+                    "fault": {
+                        "name": "CWE-664",
+                        "severity": 1
+                    },
+                    "analyzers": [
+                        "Cppcheck",
+                        "Infer",
+                        "CodeQL"
+                    ],
+                    "found_by": [
+                        "Cppcheck"
+                    ]
+                }
+            ]
+        },
+        {
+            "source_line": 23,
+            "bbId": 0,
+            "instruction": "  %2 = load i64, i64* @global_var_100000fa8, align 8, !insn.addr !1",
+            "fileName": "/Users/andreibadoi/Master_Thesis/material/scripts/pattern_matching/data/1/main.c",
+            "function": "main",
+            "function_args": [
+                "argc",
+                "argv"
+            ],
+            "opcode_name": "load",
+            "features": {
+                "operands": 1,
+                "opcode": 32,
+                "is_branch": false,
+                "is_function_call": false,
+                "is_return": false,
+                "is_int_cmp": false,
+                "is_float_cmp": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_conv": false,
+                "is_int_to_pointer": false,
+                "is_pointer_to_int": false,
+                "is_add": false,
+                "is_mul": false,
+                "is_div": false,
+                "is_and": false,
+                "is_or": false,
+                "is_sh": false,
+                "is_binary": false,
+                "is_unary": false,
+                "is_associative": false,
+                "is_commutative": false,
+                "is_idempotent": false,
+                "is_nilpotent": false,
+                "mayWriteToMemory": false,
+                "mayReadOrWriteMemory": true,
+                "is_atomic": false,
+                "hasAtomicLoad": true,
+                "hasAtomicStore": false,
+                "mayThrow": false,
+                "is_fenceLike": false,
+                "mayHaveSideEffects": false,
+                "is_safeToRemove": true,
+                "is_EHPad": false
+            },
+            "faults": [
+                {
+                    "fault": {
+                        "name": "CWE-664",
+                        "severity": 1
+                    },
+                    "analyzers": [
+                        "Cppcheck",
+                        "Infer",
+                        "CodeQL"
+                    ],
+                    "found_by": [
+                        "Cppcheck"
+                    ]
+                }
+            ]
+        }
+    ]
+}

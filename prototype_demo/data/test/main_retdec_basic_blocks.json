@@ -1,0 +1,49 @@
+{
+    "basic_blocks": [
+        {
+            "id": 0,
+            "file": "-",
+            "function": "agent",
+            "lines": [],
+            "bb_length": 12,
+            "pred_bb_num": 0,
+            "suc_bb_num": 2
+        },
+        {
+            "id": 1,
+            "file": "-",
+            "function": "agent",
+            "lines": [],
+            "bb_length": 5,
+            "pred_bb_num": 1,
+            "suc_bb_num": 1
+        },
+        {
+            "id": 2,
+            "file": "-",
+            "function": "agent",
+            "lines": [],
+            "bb_length": 6,
+            "pred_bb_num": 1,
+            "suc_bb_num": 1
+        },
+        {
+            "id": 3,
+            "file": "-",
+            "function": "agent",
+            "lines": [],
+            "bb_length": 7,
+            "pred_bb_num": 2,
+            "suc_bb_num": 0
+        },
+        {
+            "id": 4,
+            "file": "-",
+            "function": "main",
+            "lines": [],
+            "bb_length": 11,
+            "pred_bb_num": 0,
+            "suc_bb_num": 0
+        }
+    ]
+}

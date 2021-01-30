@@ -1,0 +1,34 @@
+{
+    "analyzers": [
+        "Cppcheck", "Infer", "CodeQL"
+    ],
+    "faults": [
+        {
+            "file": "%SRCROOT%/libavcodec/main.c",
+            "line": 8,
+            "fault": "CWE-664",
+            "severity": 5,
+            "found_by": [
+                "Cppcheck", "Infer"
+            ]
+        },
+        {
+            "file": "%SRCROOT%/libavcodec/main.c",
+            "line": 9,
+            "fault": "CWE-664",
+            "severity": 7,
+            "found_by": [
+                "Cppcheck", "Infer", "CodeQL"
+            ]
+        },
+        {
+            "file": "%SRCROOT%/libavcodec/main.c",
+            "line": 23,
+            "fault": "CWE-664",
+            "severity": 1,
+            "found_by": [
+                "Cppcheck"
+            ]
+        }
+    ]
+}

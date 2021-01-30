@@ -1,0 +1,64 @@
+{
+    "basic_blocks": [
+        {
+            "id": 0,
+            "file": "/Users/andreibadoi/Master_Thesis/material/scripts/pattern_matching/data/1/main.c",
+            "function": "agent",
+            "lines": [
+                8
+            ],
+            "bb_length": 10,
+            "pred_bb_num": 0,
+            "suc_bb_num": 2
+        },
+        {
+            "id": 1,
+            "file": "/Users/andreibadoi/Master_Thesis/material/scripts/pattern_matching/data/1/main.c",
+            "function": "agent",
+            "lines": [
+                9,
+                10
+            ],
+            "bb_length": 5,
+            "pred_bb_num": 1,
+            "suc_bb_num": 1
+        },
+        {
+            "id": 2,
+            "file": "/Users/andreibadoi/Master_Thesis/material/scripts/pattern_matching/data/1/main.c",
+            "function": "agent",
+            "lines": [
+                12
+            ],
+            "bb_length": 4,
+            "pred_bb_num": 1,
+            "suc_bb_num": 1
+        },
+        {
+            "id": 3,
+            "file": "/Users/andreibadoi/Master_Thesis/material/scripts/pattern_matching/data/1/main.c",
+            "function": "agent",
+            "lines": [
+                14,
+                16
+            ],
+            "bb_length": 5,
+            "pred_bb_num": 2,
+            "suc_bb_num": 0
+        },
+        {
+            "id": 4,
+            "file": "/Users/andreibadoi/Master_Thesis/material/scripts/pattern_matching/data/1/main.c",
+            "function": "main",
+            "lines": [
+                21,
+                22,
+                23,
+                25
+            ],
+            "bb_length": 21,
+            "pred_bb_num": 0,
+            "suc_bb_num": 0
+        }
+    ]
+}
